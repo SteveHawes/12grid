@@ -7,6 +7,7 @@ Responsive-Layout: True
 Bundle-Name: Bootstrap 12-Grid
 Bundle-SymbolicName: 12grid
 Bundle-Version: 1.0.1
+Package-Type: Web-Layout
 
 Name: container.spec
 Web-Layout: True
