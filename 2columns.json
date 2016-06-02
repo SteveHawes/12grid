@@ -1,0 +1,18 @@
+{
+	"layoutName":"row",
+	"class":"row",
+	"children" : [
+		{
+			"layoutName":"column",
+			"model": {
+				"class":"col-md-6"
+			}
+		},
+		{
+			"layoutName":"column",
+			"model": {
+				"class":"col-md-6"
+			}
+		}
+	]
+}
