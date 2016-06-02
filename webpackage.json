@@ -1,0 +1,10 @@
+{
+    "name":"12grid",
+    "displayName":"Bootstrap 12grid layout",
+    "packageType": "Web-Layout",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/1020px-Boostrap_logo.svg.png",
+    "sampleUrl": "https://github.com/Servoy/12grid/wiki",
+    "wikiUrl": "https://github.com/Servoy/12grid/wiki",
+    "sourceUrl" : "https://github.com/Servoy/12grid",
+    "releases" : [{"version":"1.0.1","url":"https://github.com/Servoy/12grid/releases/download/v1.0.112grid.zip"}],
+}
