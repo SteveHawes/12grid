@@ -36,9 +36,6 @@ Web-Composite: True
 Name: responsive_form.spec
 Web-Composite: True
 
-Name: 3fields.spec
-Web-Composite: True
-
 Name: labelfield.spec
 Web-Composite: True
 
