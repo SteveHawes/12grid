@@ -10,6 +10,12 @@
 	min-height: 20px;
 }
 
+.customDivDesign {
+	border: 3px solid #F5F5F5;
+	padding: 5px;
+	margin: 0px 0px 0px 0px;
+}
+
 /*first level children divs are columns*/
 .row>div {
 	min-height: 20px;
