@@ -3,7 +3,7 @@
 	"displayName": "Custom Div",
 	"version": 1,
 	"definition": "div.json",
-	"contains": ["bootstrapcomponents.*","12grid.div"],
+	"excludes": ["container"],
 	"topContainer": true,
 	"categoryName":"Templates",
 	"icon": "12grid/customdiv.png",
