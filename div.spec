@@ -3,7 +3,7 @@
 	"displayName": "Custom Div",
 	"version": 1,
 	"definition": "div.json",
-	"excludes": ["container"],
+	"excludes": ["container", "column"],
 	"topContainer": true,
 	"categoryName":"Templates",
 	"icon": "12grid/customdiv.png",
