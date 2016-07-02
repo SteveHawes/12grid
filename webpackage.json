@@ -3,7 +3,7 @@
     "displayName":"Bootstrap 12grid layout",
     "packageType": "Web-Layout",
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boostrap_logo.svg/1020px-Boostrap_logo.svg.png",
-    "description": "This is the bootstrap 12 grid layout package for making responsive forms, also install the bootstrap component package or another component package to drop into this layout",
+    "description": "This is the bootstrap 12 grid layout package for making responsive forms. It is meant to work with the bootstrap components package or any other compatible component packages. You can build a responsive layout for your form using this combination or components and layouts.",
     "wikiUrl": "https://github.com/Servoy/12grid/wiki",
     "sourceUrl" : "https://github.com/Servoy/12grid",
     "releases" : [{"version":"1.0.1","url":"https://github.com/Servoy/12grid/releases/download/v1.0.1/12grid.zip"},
