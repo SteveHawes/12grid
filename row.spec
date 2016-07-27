@@ -5,7 +5,7 @@
 	"icon": "12grid/row.png",
 	"designStyleClass" : "rowDesign",
 	"definition": "row.json",
-	"contains": ["12grid.column","12grid.clearfix","12grid.formreference"],
+	"contains": ["12grid.column","12grid.clearfix"],
 	"topContainer": true,
 	"model": {
 		"class" :{ "type" :"styleclass", "tags": { "scope" :"design" }}
