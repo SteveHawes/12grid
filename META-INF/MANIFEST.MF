@@ -6,7 +6,7 @@ CSS-ClientLibs: 12grid/lib/12grid.css
 Responsive-Layout: True
 Bundle-Name: Bootstrap 12-Grid
 Bundle-SymbolicName: 12grid
-Bundle-Version: 1.0.4
+Bundle-Version: 1.0.5
 Package-Type: Web-Layout
 
 Name: container.spec
