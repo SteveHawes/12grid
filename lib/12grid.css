@@ -34,3 +34,27 @@
 	z-index: 10;
 }
 
+
+/* Simple Collapsible */
+.simple-collapsible-toggle {
+	margin-top: 15px;
+}
+
+.simple-collapsible-icon {
+	padding: 5px 7px;
+}
+
+/* Simple Collapsible Icon */
+.simple-collapsible-toggle > .simple-collapsible-icon {
+	font-family: "Glyphicons Halflings";
+	display: inline-block;
+}
+
+.simple-collapsible-toggle > .simple-collapsible-icon:before {
+	content: "\e113"; /* GlyphIcon chevron down */
+}
+
+.simple-collapsible-toggle.collapsed > .simple-collapsible-icon:before {
+	content: "\e114"; /* GlyphIcon chevron up */
+}
+

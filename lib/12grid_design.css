@@ -45,3 +45,11 @@ data-bootstrapcomponents-table {
 data-bootstrapcomponents-tabpanel {
 	display: block;
 }
+
+.simple-collapsible > div {
+	min-height: 20px;
+}
+
+.simple-collapsible > .simple-collapsible-content {
+	min-height: 40px;
+}

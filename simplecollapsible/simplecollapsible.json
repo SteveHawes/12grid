@@ -1,0 +1,29 @@
+{
+	"layoutName": "simplecollapsible",
+	"class": "simple-collapsible",
+	"children": [{
+		"layoutName": "div",
+		"model": {
+			"class": "simple-collapsible-toggle",
+			"data-toggle":"collapse",
+			"data-target":"#simplecollapsible-selector",
+			"children": [{
+				"layoutName": "div",
+				"model": {
+					"class": "simple-collapsible-icon pull-right"
+					}
+				},{
+				"layoutName": "clearfix",
+				"model": {
+					"class": "clearfix"
+				}
+			}]
+		}
+	}, {
+		"layoutName": "div",
+		"model": {
+			"id":"simplecollapsible-selector",
+			"class": "collapse in simple-collapsible-content"
+		}
+	}]
+}
