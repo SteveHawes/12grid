@@ -6,7 +6,7 @@
 		"model": {
 			"class": "collapsed collapsible-toggle",
 			"data-toggle":"collapse",
-			"data-target":".sidebar-collapse",
+			"data-target":"#collapsiblecontainer-selector",
 			"children": [{
 				"layoutName": "div",
 				"model": {
@@ -17,7 +17,8 @@
 	}, {
 		"layoutName": "div",
 		"model": {
-			"class": "sidebar-collapse collapse collapsible-container",
+			"id":"collapsiblecontainer-selector",
+			"class": "collapse collapsible-container",
 			"children": [{
 				"layoutName": "div",
 				"model": {
