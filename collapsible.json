@@ -19,7 +19,7 @@
 		"model": {
 			"class": "sidebar-collapse collapse collapsible-container",
 			"children": [{
-				"layoutName": "column",
+				"layoutName": "div",
 				"model": {
 					"class": "customDiv"
 				}
