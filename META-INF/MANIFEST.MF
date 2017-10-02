@@ -43,6 +43,9 @@ Web-Layout: True
 Name: clearfix.spec
 Web-Composite: True
 
+Name: centercontainer/centercontainer.spec
+Web-Layout: True
+
 Name: 3columns.spec
 Web-Layout: True
 Web-Composite: True

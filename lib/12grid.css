@@ -58,3 +58,24 @@
 	content: "\e114"; /* GlyphIcon chevron up */
 }
 
+/* This parent can be any width and height */
+.center-container {
+  height: 100%;
+  text-align: center;
+}
+ 
+/* The ghost, nudged to maintain perfect centering */
+.center-container:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+/* The element to be centered, can be of any width and height */ 
+.center-container-content {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: initial; /* Reset text align to initial */
+}

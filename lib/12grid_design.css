@@ -46,10 +46,17 @@ data-bootstrapcomponents-tabpanel {
 	display: block;
 }
 
+/* Simple Collapsible */
 .simple-collapsible > div {
 	min-height: 20px;
 }
 
 .simple-collapsible > .simple-collapsible-content {
 	min-height: 40px;
+}
+
+/* Centered Container */
+.center-container-content {
+  min-width: 200px;
+  min-height: 30px;
 }

@@ -1,0 +1,10 @@
+{
+	"layoutName": "centercontainer",
+	"class":"center-container",
+	"children": [{
+		"layoutName": "div",
+		"model": {
+			"class":"center-container-content"
+		}
+	}]
+}
