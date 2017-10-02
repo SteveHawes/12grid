@@ -2,7 +2,7 @@
     "name": "simplecollapsible",
     "displayName": "Simple Collapsible",
     "version": 1,
-    "icon": "12grid/collapsible.png",
+    "icon": "12grid/simplecollapsible/simplecollapsible.png",
     "definition": "simplecollapsible/simplecollapsible.json",
     "categoryName": "Templates",
 	"excludes": ["container","column"],
