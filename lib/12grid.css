@@ -58,6 +58,7 @@
 	content: "\e114"; /* GlyphIcon chevron up */
 }
 
+/* https://css-tricks.com/centering-in-the-unknown/ */
 /* This parent can be any width and height */
 .center-container {
   height: 100%;
@@ -79,3 +80,18 @@
   vertical-align: middle;
   text-align: initial; /* Reset text align to initial */
 }
+
+/* Fill Width */
+ .inline-group-left {
+ 	float: left;
+ 	margin-right: 15px;
+ }
+ 
+ .inline-group-right {
+ 	float: right;
+ 	margin-left: 15px;
+ }
+ 
+ .inline-group-content {
+ 	overflow-x: hidden;
+ }

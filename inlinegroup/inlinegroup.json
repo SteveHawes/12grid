@@ -1,0 +1,20 @@
+{
+	"layoutName": "div",
+	"class": "inline-group clearfix",
+	"children": [{
+		"layoutName": "div",
+		"model": {
+			"class": "inline-group-left"
+		}
+	},{
+		"layoutName": "div",
+		"model": {
+			"class": "inline-group-right"
+		}
+	}, {
+		"layoutName": "div",
+		"model": {
+			"class": "inline-group-content"
+		}
+	}]
+}

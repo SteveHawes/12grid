@@ -57,6 +57,17 @@ data-bootstrapcomponents-tabpanel {
 
 /* Centered Container */
 .center-container-content {
-  min-width: 200px;
+  min-width: 80px;
   min-height: 30px;
+}
+
+/* Inline Group Container */
+.inline-group-left,
+.inline-group-right {
+	min-height: 20px;
+	min-width: 20px;
+}
+
+.inline-group-content {
+	min-height: 20px;
 }

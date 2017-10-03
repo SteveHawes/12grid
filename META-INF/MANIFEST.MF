@@ -16,6 +16,9 @@ Web-Composite: True
 Name: 2columns.spec
 Web-Layout: True
 
+Name: inlinegroup/inlinegroup.spec
+Web-Layout: True
+
 Name: collapsible.spec
 Web-Composite: True
 
