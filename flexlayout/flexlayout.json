@@ -1,0 +1,20 @@
+{
+	"layoutName": "div",
+	"class": "flexlayout",
+	"children": [{
+		"layoutName": "div",
+		"model": {
+			"class": "flex-header"
+		}
+	},{
+		"layoutName": "div",
+		"model": {
+			"class": "flex-content"
+		}
+	}, {
+		"layoutName": "div",
+		"model": {
+			"class": "flex-footer"
+		}
+	}]
+}

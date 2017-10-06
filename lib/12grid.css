@@ -81,7 +81,7 @@
   text-align: initial; /* Reset text align to initial */
 }
 
-/* Fill Width */
+/* Inline Group Container */
  .inline-group-left {
  	float: left;
  	margin-right: 15px;
@@ -95,3 +95,34 @@
  .inline-group-content {
  	overflow-x: hidden;
  }
+
+/* Flex Layout */
+.flexlayout {
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+}
+
+.flex-header {
+}
+
+.flex-content {
+	flex: 2;
+	overflow: auto;
+}
+
+.flex-footer {
+}
+
+.flexlayout > .flex-header > .row,
+.flexlayout > .flex-content > .row,
+.flexlayout > .flex-footer > .row {
+	/* TODO can i do better than this ? */
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+/* TODO, this is a bad workaround can i set responsiveHeight to 100% in table component */
+.flex-content > * > .tablewrapper {
+	height: 100% !important;
+}
