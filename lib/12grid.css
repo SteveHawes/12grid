@@ -68,6 +68,8 @@
 .center-container {
   height: 100%;
   text-align: center;
+  display: inline-block; /* prevent the ghost to go to the next line when width doesn't fit */
+  min-width: 100%;
 }
  
 /* The ghost, nudged to maintain perfect centering */
