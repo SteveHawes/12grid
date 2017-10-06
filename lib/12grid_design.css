@@ -71,3 +71,29 @@ data-bootstrapcomponents-tabpanel {
 .inline-group-content {
 	min-height: 20px;
 }
+
+/* Flex layout gets scrollbar because of height: 100% 
+   This is a workaround to avoid inner scrollbars in flex-layout 
+*/
+.flexlayout > .flex-content {
+	min-height: 20px;
+}
+
+.svy-form .flexlayout {
+	display: block;
+}
+
+.svy-form > .flexlayout {
+	display: block;
+	min-height: 100%;
+	overflow: visible;
+}
+
+.svy-form > .flexlayout > .flex-content {
+	min-height: 800px;
+}
+
+.svy-form .flexlayout > .flex-content > * > .tablewrapper {
+	/* height: 150px !important; */
+	min-height: 150px;
+}
