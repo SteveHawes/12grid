@@ -6,5 +6,8 @@
     "definition": "centercontainer/centercontainer.json",
     "categoryName" : "Templates",
 	"contains": ["container"],
-    "topContainer": true
+    "topContainer": true,
+    "model": {
+		"class" :{ "type" :"styleclass", "tags": { "scope" :"design" }}
+	}
 }

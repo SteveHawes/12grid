@@ -6,5 +6,8 @@
     "definition": "flexlayout/flexlayout.json",
     "excludes": ["container", "column"],
     "categoryName": "Templates",
-    "topContainer": true
+    "topContainer": true,
+    "model": {
+		"class" :{ "type" :"styleclass", "tags": { "scope" :"design" }}
+	}
 }

@@ -1,6 +1,8 @@
 {
-	"layoutName": "div",
 	"class": "inline-group clearfix",
+	"data-leftsize" : "auto",
+	"data-rightsize": "auto",
+	"data-responsive": "none",
 	"children": [{
 		"layoutName": "div",
 		"model": {

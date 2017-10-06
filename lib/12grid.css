@@ -45,6 +45,10 @@
 }
 
 /* Simple Collapsible Icon */
+.simple-collapsible-toggle:hover {
+	cursor: pointer;
+}
+
 .simple-collapsible-toggle > .simple-collapsible-icon {
 	font-family: "Glyphicons Halflings";
 	display: inline-block;
@@ -59,6 +63,7 @@
 }
 
 /* https://css-tricks.com/centering-in-the-unknown/ */
+/* FIXME it breaks vertically if width exceeds available width !!! */
 /* This parent can be any width and height */
 .center-container {
   height: 100%;
@@ -66,12 +71,12 @@
 }
  
 /* The ghost, nudged to maintain perfect centering */
-.center-container:before {
+.center-container:after {
   content: '';
   display: inline-block;
   height: 100%;
   vertical-align: middle;
-  margin-right: -0.25em; /* Adjusts for spacing */
+  margin-left: -0.25em; /* Adjusts for spacing */
 }
 
 /* The element to be centered, can be of any width and height */ 
@@ -82,19 +87,61 @@
 }
 
 /* Inline Group Container */
- .inline-group-left {
- 	float: left;
- 	margin-right: 15px;
- }
+.inline-group-left {
+	float: left;
+	margin-right: 15px;
+}
  
- .inline-group-right {
- 	float: right;
- 	margin-left: 15px;
- }
+.inline-group-right {
+	float: right;
+	margin-left: 15px;
+}
  
- .inline-group-content {
- 	overflow-x: hidden;
- }
+.inline-group-content {
+	overflow-x: hidden;
+}
+ 
+ /* Inling Group Sizes */
+.inline-group[data-leftsize="xs"] > .inline-group-left,
+.inline-group[data-rightsize="xs"] > .inline-group-right {
+ 	width: 40px;
+}
+ 
+.inline-group[data-leftsize="sm"] > .inline-group-left,
+.inline-group[data-rightsize="sm"] > .inline-group-right {
+ 	width: 80px;
+}
+ 
+.inline-group[data-leftsize="md"] > .inline-group-left,
+.inline-group[data-rightsize="md"] > .inline-group-right {
+ 	width: 120px;
+}
+ 
+.inline-group[data-leftsize="lg"] > .inline-group-left,
+.inline-group[data-rightsize="lg"] > .inline-group-right {
+ 	width: 160px;
+}
+
+@media (max-width: 768px) {
+	.inline-group[data-responsive="col-sm"] > .inline-group-left {
+		float: none;
+		width: auto;
+	}
+}
+
+@media (max-width: 992px) {
+	.inline-group[data-responsive="col-md"] > .inline-group-left {
+		float: none;
+		width: auto;
+	}
+}
+
+@media (max-width: 1200px) {
+	.inline-group[data-responsive="col-lg"] > .inline-group-left {
+		float: none;
+		width: auto;
+	}
+}
 
 /* Flex Layout */
 .flexlayout {
@@ -123,6 +170,6 @@
 }
 
 /* TODO, this is a bad workaround can i set responsiveHeight to 100% in table component */
-.flex-content > * > .tablewrapper {
+.flexlayout > .flex-content > * > .tablewrapper {
 	height: 100% !important;
 }
