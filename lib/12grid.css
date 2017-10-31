@@ -1,3 +1,11 @@
+.svy-main-window-container > svy-formload > .svy-respform
+{
+	height: 100%;
+}
+data-servoydefault-tabpanel .svy-respform
+{
+   height: 100%;
+} 
 @media (min-width: 992px){
 	.collapsible-container {
 	 display: block;!important;
