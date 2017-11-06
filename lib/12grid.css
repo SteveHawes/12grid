@@ -34,7 +34,6 @@
 	z-index: 10;
 }
 
-
 /* Simple Collapsible */
 .simple-collapsible-toggle {
 	margin-top: 15px;
@@ -62,7 +61,6 @@
 	content: "\e114"; /* GlyphIcon chevron up */
 }
 
-/* https://css-tricks.com/centering-in-the-unknown/ */
 /* FIXME it breaks vertically if width exceeds available width !!! */
 /* This parent can be any width and height */
 .center-container {
@@ -82,7 +80,7 @@
 }
 
 /* The element to be centered, can be of any width and height */ 
-.center-container-content {
+.center-container > .center-container-content {
   display: inline-block;
   vertical-align: middle;
   text-align: initial; /* Reset text align to initial */
@@ -152,26 +150,18 @@
 	height: 100%;
 }
 
-.flex-header {
-}
+.flex-header {}
 
 .flex-content {
 	flex: 2;
 	overflow: auto;
 }
 
-.flex-footer {
-}
+.flex-footer {}
 
-.flexlayout > .flex-header > .row,
-.flexlayout > .flex-content > .row,
-.flexlayout > .flex-footer > .row {
-	/* TODO can i do better than this ? */
-	margin-right: 0px;
-	margin-left: 0px;
-}
-
-/* TODO, this is a bad workaround can i set responsiveHeight to 100% in table component */
+/* This style forces a table component contained in a flex-content section to 100% height.
+   It facilitates the usage of the containers in combination with table components however won't allow to 
+   set responsiveHeight to 100% in table component it's self is preferable*/
 .flexlayout > .flex-content > * > .tablewrapper {
 	height: 100% !important;
 }
