@@ -5,6 +5,6 @@
 	"definition": "absolutelayoutdiv.json",
 	"categoryName":"Templates",
 	"model": {
-		"class" :{ "type" :"styleclass", "tags": { "scope" :"design" }, "default" : "svy-absolutelayoutdiv" }
+		"class" :{ "type" :"styleclass", "tags": { "scope" :"design" }, "default" : "absolutelayoutdiv" }
 	}
 }
