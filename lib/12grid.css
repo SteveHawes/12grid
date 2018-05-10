@@ -179,9 +179,15 @@
 
 .flex-footer {}
 
-/* This style forces a table component contained in a flex-content section to 100% height.
+/* would be better to move this into the svyThemeRoller ?
+
+   This style forces a table component contained in a flex-content section to 100% height.
    It facilitates the usage of the containers in combination with table components however won't allow to 
-   set responsiveHeight to 100% in table component it's self is preferable*/
+   set responsiveHeight to 100% in table component it's self is preferable */
+.flexlayout > .flex-content > data-servoyextra-table {
+	height: 100%;
+}
+   
 .flexlayout > .flex-content > * > .tablewrapper {
 	height: 100% !important;
 }
