@@ -171,6 +171,12 @@
 
 .flex-footer {}
 
+/* reset container margin */
+.container > .flexlayout {
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
 /* would be better to move this into the svyThemeRoller ?
 
    This style forces a table component contained in a flex-content section to 100% height.
