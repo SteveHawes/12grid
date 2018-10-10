@@ -25,7 +25,7 @@ Web-Composite: True
 Name: container.spec
 Web-Layout: True
 
-Name: absolutelayoutdiv.spec
+Name: csspositioncontainer.spec
 Web-Layout: True
 
 Name: div.spec
