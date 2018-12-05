@@ -7,5 +7,8 @@
 	"definition": "labelfield.json",
 	"categoryName":"Templates",
 	"contains": ["12grid.column"],
-	"topContainer": true
+	"topContainer": true,
+	"model": {
+		"class" :{ "type" :"styleclass", "tags": { "scope" :"design" }}
+	}
 }
