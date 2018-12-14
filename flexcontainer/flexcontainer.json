@@ -1,0 +1,22 @@
+{
+	"class": "flex",
+	"data-direction" : "row",
+	"data-justify-content": "flex-start",
+	"data-align-items": "stretch",
+	"children": [{
+		"layoutName": "flexitem",
+		"model": {
+			"class": "flex-item"
+		}
+	},{
+		"layoutName": "flexitem",
+		"model": {
+			"class": "flex-item"
+		}
+	}, {
+		"layoutName": "flexitem",
+		"model": {
+			"class": "flex-item"
+		}
+	}]
+}
