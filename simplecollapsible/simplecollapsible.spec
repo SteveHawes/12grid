@@ -5,7 +5,7 @@
     "icon": "12grid/simplecollapsible/simplecollapsible.png",
     "definition": "simplecollapsible/simplecollapsible.json",
     "categoryName": "Templates",
-	"excludes": ["container","column"],
+	"excludes": ["container","column","flexitem"],
     "topContainer": true,
     "model": {
 		"class" :{ "type" :"styleclass", "tags": { "scope" :"design" }}

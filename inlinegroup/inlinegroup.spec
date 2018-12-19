@@ -6,7 +6,8 @@
     "definition": "inlinegroup/inlinegroup.json",
     "excludes": [
         "container",
-        "column"
+        "column",
+        "flexitem"
     ],
     "categoryName": "Templates",
     "topContainer": true,
