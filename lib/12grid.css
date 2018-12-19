@@ -271,3 +271,35 @@
 .flex > [data-shrink="1"]  {
 	flex-shrink: 1;
 }
+
+.flex > [data-grow="2"]  {
+	flex-grow: 2;
+}
+
+.flex > [data-shrink="2"]  {
+	flex-shrink: 2;
+}
+
+.flex > [data-grow="3"]  {
+	flex-grow: 3;
+}
+
+.flex > [data-shrink="3"]  {
+	flex-shrink: 3;
+}
+
+.flex > [data-grow="4"]  {
+	flex-grow: 4;
+}
+
+.flex > [data-shrink="4"]  {
+	flex-shrink: 4;
+}
+
+.flex > [data-grow="5"]  {
+	flex-grow: 5;
+}
+
+.flex > [data-shrink="5"]  {
+	flex-shrink: 5;
+}

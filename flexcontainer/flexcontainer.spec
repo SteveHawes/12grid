@@ -3,9 +3,9 @@
 	"displayName": "Flex Container",
 	"version": 1,
 	"definition": "flexcontainer/flexcontainer.json",
-    "excludes": [
-        "container",
-        "column"
+	"icon": "12grid/container.gif",
+    "contains": [
+        "flexitem"
     ],
     "categoryName": "Flex CSS",
     "topContainer": true,
