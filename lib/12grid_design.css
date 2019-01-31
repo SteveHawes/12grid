@@ -97,3 +97,9 @@ data-bootstrapcomponents-tabpanel {
 	/* height: 150px !important; */
 	min-height: 150px;
 }
+
+.flex,
+.flex-item {
+	min-height: 20px;
+	min-width: 20px;
+}

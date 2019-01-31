@@ -16,9 +16,6 @@ Web-Composite: True
 Name: 2columns.spec
 Web-Layout: True
 
-Name: inlinegroup/inlinegroup.spec
-Web-Layout: True
-
 Name: collapsible.spec
 Web-Composite: True
 
@@ -49,7 +46,16 @@ Web-Layout: True
 Name: clearfix.spec
 Web-Composite: True
 
+Name: inlinegroup/inlinegroup.spec
+Web-Layout: True
+
+Name: flexlayout/flexlayout.spec
+Web-Layout: True
+
 Name: centercontainer/centercontainer.spec
+Web-Layout: True
+
+Name: flexitem/flexitem.spec
 Web-Layout: True
 
 Name: 3columns.spec
@@ -59,9 +65,9 @@ Web-Composite: True
 Name: 2screens.spec
 Web-Composite: True
 
-Name: column.spec
+Name: flexcontainer/flexcontainer.spec
 Web-Layout: True
 
-Name: flexlayout/flexlayout.spec
+Name: column.spec
 Web-Layout: True
 
