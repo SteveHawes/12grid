@@ -231,23 +231,23 @@
 }
 
 /* Flex Align Items (applied to the container)*/
-.flex[data-align-content="center"] {
+.flex[data-align-items="center"] {
 	align-items: center;
 }
 
-.flex[data-align-content="stretch"] {
+.flex[data-align-items="stretch"] {
 	align-items: stretch;
 }
 
-.flex[data-align-content="baseline"] {
+.flex[data-align-items="baseline"] {
 	align-items: baseline;
 }
 
-.flex[data-align-content="flex-start"] {
+.flex[data-align-items="flex-start"] {
 	align-items: flex-start;
 }
 
-.flex[data-align-content="flex-end"] {
+.flex[data-align-items="flex-end"] {
 	align-items: flex-end;
 }
 
