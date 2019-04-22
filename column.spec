@@ -3,6 +3,7 @@
 	"displayName": "Column",
 	"version": 1,
 	"icon": "12grid/column.png",
+	"designStyleClass" : "columnDesign",
 	"definition": "column.json",
 	"excludes": ["container","column","flexitem"],
 	"model": {

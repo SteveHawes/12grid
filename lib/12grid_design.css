@@ -17,7 +17,7 @@
 }
 
 /*first level children divs are columns*/
-.row>div {
+.columnDesign {
 	min-height: 20px;
 }
 
@@ -33,7 +33,7 @@
 }
 
 /*first level children divs are columns*/
-.rowDesign>div {
+.columnDesign {
 	border: 2px solid #DDDDDD;
 	padding: 5px;
 }
