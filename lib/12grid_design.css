@@ -11,21 +11,21 @@
 }
 
 .customDivDesign {
-	border: 3px solid #F5F5F5;
-	padding: 5px;
-	margin: 0px 0px 0px 0px;
-}
-
-/*first level children divs are columns*/
-.columnDesign {
-	min-height: 20px;
+	background-color	: #E8E8E8;
+	border				: 2px solid inherit;
+	margin				: 25px;
+	min-height			: 40px;
+	padding				: 10px;
 }
 
 .rowDesign {
-	border: 3px solid #F5F5F5;
-	padding: 5px;
-	margin: 0px 0px 10px 0px;
+ 	background-color	: #D3D3D3;
+	border				: 2px solid inherit;
+    margin				: 25px !important;
+	min-height			: 40px;
+    padding				: 10px;
 }
+
 .container-fluid {
 	height: 100%;
 	width: 100%;
@@ -34,8 +34,78 @@
 
 /*first level children divs are columns*/
 .columnDesign {
-	border: 2px solid #DDDDDD;
-	padding: 5px;
+	background-color		: #F0F0F0;
+	border					: 2px solid inherit;
+	margin					: 30px 10px 10px 10px;
+	min-height				: 40px;
+	min-width				: 100px;
+    padding					: 10px;
+}
+
+/*hardcode column widths for now*/
+.columnDesign.col-md-12 {
+	 width: calc(100% - 20px);
+}
+.columnDesign.col-md-11 {
+	 width: calc(percentage(11 / 12) - 20px);
+}
+.columnDesign.col-md-10 {
+	 width: calc(percentage(10 / 12) - 20px);
+}
+.columnDesign.col-md-9 {
+	 width: calc(percentage(9 / 12) - 20px);
+}
+.columnDesign.col-md-8 {
+	 width: calc(percentage(8 / 12) - 20px);
+}
+.columnDesign.col-md-7 {
+	 width: calc(percentage(7 / 12) - 20px);
+}
+.columnDesign.col-md-6 {
+	 width: calc(50% - 20px);
+}
+.columnDesign.col-md-5 {
+	 width: calc(percentage(5 / 12) - 20px);
+}
+.columnDesign.col-md-4 {
+	 width: calc(percentage(4 / 12) - 20px);
+}
+.columnDesign.col-md-3 {
+	 width: calc(25% - 20px);
+}
+.columnDesign.col-md-2{
+	 width: calc(percentage(2 / 12) - 20px);
+}
+.columnDesign.col-md-1 {
+	 width: calc(percentage(1 / 12) - 20px);
+}
+
+.customDivDesign::before, .rowDesign::before, .columnDesign::before {
+  content				  : attr(svy-title);
+  border-bottom           : none;
+  border-top-left-radius  : 5px;
+  border-top-right-radius : 5px;
+  font					  : 12px Arial, sans-serif;
+  margin-top			  : -29px;
+  margin-left			  : 10px;
+  padding                 : 2px 10px;
+  position				  : absolute;
+ 
+}
+
+.customDivDesign::before {
+  background-color		  : #E8E8E8;
+  border                  : 1px solid #E8E8E8;
+}
+
+.rowDesign::before {
+  background-color		  : #D3D3D3;
+  border                  : 1px solid #D3D3D3;
+}
+
+.columnDesign::before {
+  background-color		  : #F0F0F0;
+  border                  : 1px solid #F0F0F0;
 }
 
 data-bootstrapcomponents-table {
