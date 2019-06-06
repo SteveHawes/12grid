@@ -32,6 +32,14 @@
 	margin: 0px 0px 0px 0px;
 }
 
+.rowDesign.container-fluid {
+	background-color		: #A9A9A9;
+	border					: 2px solid inherit;
+	height					: calc(100% - 50px);
+	width					: calc(100% - 50px);
+	margin					: 0px;
+}
+
 /*first level children divs are columns*/
 .columnDesign {
 	background-color		: #F0F0F0;
@@ -47,41 +55,42 @@
 	 width: calc(100% - 20px);
 }
 .columnDesign.col-md-11 {
-	 width: calc(percentage(11 / 12) - 20px);
+	 width: calc(100% * 11 / 12 - 20px);
 }
 .columnDesign.col-md-10 {
-	 width: calc(percentage(10 / 12) - 20px);
+	 width: calc(100% * 10 / 12 - 20px);
 }
 .columnDesign.col-md-9 {
-	 width: calc(percentage(9 / 12) - 20px);
+	 width: calc(100% * 9 / 12 - 20px);
 }
 .columnDesign.col-md-8 {
-	 width: calc(percentage(8 / 12) - 20px);
+	 width: calc(100% * 8 / 12 - 20px);
 }
 .columnDesign.col-md-7 {
-	 width: calc(percentage(7 / 12) - 20px);
+	 width: calc(100% * 7 / 12 - 20px);
 }
 .columnDesign.col-md-6 {
 	 width: calc(50% - 20px);
 }
 .columnDesign.col-md-5 {
-	 width: calc(percentage(5 / 12) - 20px);
+	 width: calc(100% * 5 / 12 - 20px);
 }
 .columnDesign.col-md-4 {
-	 width: calc(percentage(4 / 12) - 20px);
+	 width: calc(100% * 4 / 12 - 20px);
 }
 .columnDesign.col-md-3 {
 	 width: calc(25% - 20px);
 }
 .columnDesign.col-md-2{
-	 width: calc(percentage(2 / 12) - 20px);
+	 width: calc(100% * 2 / 12 - 20px);
 }
 .columnDesign.col-md-1 {
-	 width: calc(percentage(1 / 12) - 20px);
+	 width: calc(100% * 1 / 12 - 20px);
 }
 
 .customDivDesign::before, .rowDesign::before, .columnDesign::before {
   content				  : attr(svy-title);
+  color					  : #333333;
   border-bottom           : none;
   border-top-left-radius  : 5px;
   border-top-right-radius : 5px;
@@ -90,7 +99,6 @@
   margin-left			  : 10px;
   padding                 : 2px 10px;
   position				  : absolute;
- 
 }
 
 .customDivDesign::before {
@@ -98,9 +106,14 @@
   border                  : 1px solid #E8E8E8;
 }
 
-.rowDesign::before {
+.rowDesign::before, .customDivDesign.simple-collapsible-toggle > .customDivDesign.clearfix::before {
   background-color		  : #D3D3D3;
   border                  : 1px solid #D3D3D3;
+}
+
+.rowDesign.container-fluid::before {
+  background-color		  : #A9A9A9;
+  border                  : 1px solid #A9A9A9;
 }
 
 .columnDesign::before {
@@ -155,7 +168,7 @@ data-bootstrapcomponents-tabpanel {
 
 .svy-form > .flexlayout {
 	display: block;
-	min-height: 100%;
+	/*min-height: 100%;*/
 	overflow: visible;
 }
 
@@ -168,8 +181,104 @@ data-bootstrapcomponents-tabpanel {
 	min-height: 150px;
 }
 
+.svy-form > .customDivDesign.flexlayout {
+	height	: calc(100% - 50px);
+	width	: calc(100% - 50px);
+}
+
+.customDivDesign.flex-header, .customDivDesign.flex-content, .customDivDesign.flex-footer 
+{
+	background-color	: #C0C0C0;
+	border				: 1px solid inherit;
+}
+
+.customDivDesign.flex-header::before, .customDivDesign.flex-content::before, .customDivDesign.flex-footer::before {
+  background-color	: #C0C0C0;
+  border		    : 1px solid #C0C0C0;
+}
+
 .flex,
 .flex-item {
 	min-height: 20px;
 	min-width: 20px;
+}
+
+.customDivDesign.flex {
+	background-color	: #DCDCDC;
+	border				: 1px solid inherit;
+}
+.customDivDesign.flex::before {
+  background-color	: #DCDCDC;
+  border			: 1px solid #DCDCDC;
+}
+
+.customDivDesign.flex-item {
+	background-color	: #F0F0F0;
+	border				: 1px solid #F0F0F0;
+	min-height			: 100px;
+	min-width			: 120px;
+}
+.customDivDesign.flex-item::before {
+  background-color		  : #F0F0F0;
+  border                  : 1px solid #F0F0F0;
+}
+
+.customDivDesign.center-container {
+	background-color	: #C0C0C0;
+	border				: 1px solid #C0C0C0;
+	text-align			: left;
+	min-width			: 90%;
+}
+
+.customDivDesign.center-container::before {
+  background-color		  : #C0C0C0;
+  border                  : 1px solid #C0C0C0;
+}
+
+.customDivDesign.center-container-content {
+	background-color	: #F0F0F0;
+	border				: 1px solid #F0F0F0;
+	min-height			: 100px;
+	min-width			: 90%;
+}
+
+.customDivDesign.center-container-content::before {
+  background-color		  : #F0F0F0;
+  border                  : 1px solid #F0F0F0;
+}
+
+.customDivDesign.simple-collapsible-toggle > .customDivDesign.clearfix {
+	background-color	: #D3D3D3;
+	border				: 2px solid inherit;
+	line-height			: 0;
+	height				: 0;
+	max-height			: 0;
+	min-height			: 0;
+	overflow			: hidden;
+	padding				: 10px 0 0 10px;
+}
+
+.customDivDesign.simple-collapsible, .customDivDesign.collapsible-container
+{
+	background-color	: #C0C0C0;
+	border				: 1px solid  #C0C0C0;
+}
+
+.customDivDesign.simple-collapsible::before, .customDivDesign.collapsible-container::before {
+  background-color		  : #C0C0C0;
+  border                  : 1px solid #C0C0C0;
+}
+
+.customDivDesign.inline-group-left, .customDivDesign.inline-group-right {
+	width: 20%;
+}
+
+.customDivDesign.inline-group.clearfix {
+	background-color	: #D3D3D3;
+	border				: 1px solid #D3D3D3;
+}
+
+.customDivDesign.inline-group.clearfix::before {
+	background-color	: #D3D3D3;
+	border				: 1px solid #D3D3D3;
 }

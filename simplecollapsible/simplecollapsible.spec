@@ -6,6 +6,7 @@
     "definition": "simplecollapsible/simplecollapsible.json",
     "categoryName": "Templates",
 	"excludes": ["container","column","flexitem"],
+	"designStyleClass" : "customDivDesign",
     "topContainer": true,
     "model": {
 		"class" :{ "type" :"styleclass", "tags": { "scope" :"design" }}
