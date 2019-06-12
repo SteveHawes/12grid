@@ -10,7 +10,7 @@
 	min-height: 20px;
 }
 
-.customDivDesign {
+.customDivDesign, .customDivDesignOdd, .customDivDesignEven, .centercontainerDesign, .flexDesign, .inlinegroupDesign, .simplecollapsibleDesign {
 	background-color	: #E8E8E8;
 	border				: 2px solid inherit;
 	margin				: 25px;
@@ -88,7 +88,7 @@
 	 width: calc(100% * 1 / 12 - 20px);
 }
 
-.customDivDesign::before, .rowDesign::before, .columnDesign::before {
+.customDivDesign::before, .rowDesign::before, .columnDesign::before, .customDivDesignOdd::before, .customDivDesignEven::before, .centercontainerDesign::before, .flexDesign::before, .inlinegroupDesign::before, .simplecollapsibleDesign::before {
   content				  : attr(svy-title);
   color					  : #333333;
   border-bottom           : none;
@@ -106,7 +106,7 @@
   border                  : 1px solid #E8E8E8;
 }
 
-.rowDesign::before, .customDivDesign.simple-collapsible-toggle > .customDivDesign.clearfix::before {
+.rowDesign::before {
   background-color		  : #D3D3D3;
   border                  : 1px solid #D3D3D3;
 }
@@ -186,15 +186,15 @@ data-bootstrapcomponents-tabpanel {
 	width	: calc(100% - 50px);
 }
 
-.customDivDesign.flex-header, .customDivDesign.flex-content, .customDivDesign.flex-footer 
+.customDivDesign > .flex-header, .customDivDesign > .flex-content, .customDivDesign > .flex-footer 
 {
-	background-color	: #C0C0C0;
+	background-color	: #BDBDBD;
 	border				: 1px solid inherit;
 }
 
-.customDivDesign.flex-header::before, .customDivDesign.flex-content::before, .customDivDesign.flex-footer::before {
-  background-color	: #C0C0C0;
-  border		    : 1px solid #C0C0C0;
+.customDivDesign > .flex-header::before, .customDivDesign > .flex-content::before, .customDivDesign > .flex-footer::before {
+  background-color	: #BDBDBD;
+  border		    : 1px solid #BDBDBD;
 }
 
 .flex,
@@ -203,53 +203,54 @@ data-bootstrapcomponents-tabpanel {
 	min-width: 20px;
 }
 
-.customDivDesign.flex {
+.flexDesign.flex {
+	align-items			: stretch;
 	background-color	: #DCDCDC;
 	border				: 1px solid inherit;
 }
-.customDivDesign.flex::before {
+.flexDesign.flex::before {
   background-color	: #DCDCDC;
   border			: 1px solid #DCDCDC;
 }
 
-.customDivDesign.flex-item {
+.flexDesign.flex-item {
 	background-color	: #F0F0F0;
 	border				: 1px solid #F0F0F0;
 	min-height			: 100px;
 	min-width			: 120px;
 }
-.customDivDesign.flex-item::before {
+.flexDesign.flex-item::before {
   background-color		  : #F0F0F0;
   border                  : 1px solid #F0F0F0;
 }
 
-.customDivDesign.center-container {
+.centercontainerDesign.center-container {
 	background-color	: #C0C0C0;
 	border				: 1px solid #C0C0C0;
 	text-align			: left;
 	min-width			: 90%;
 }
 
-.customDivDesign.center-container::before {
+.centercontainerDesign.center-container::before {
   background-color		  : #C0C0C0;
   border                  : 1px solid #C0C0C0;
 }
 
-.customDivDesign.center-container-content {
+.centercontainerDesign > .center-container-content {
 	background-color	: #F0F0F0;
 	border				: 1px solid #F0F0F0;
 	min-height			: 100px;
 	min-width			: 90%;
 }
 
-.customDivDesign.center-container-content::before {
+.centercontainerDesign > .center-container-content::before {
   background-color		  : #F0F0F0;
   border                  : 1px solid #F0F0F0;
 }
 
-.customDivDesign.simple-collapsible-toggle > .customDivDesign.clearfix {
-	background-color	: #D3D3D3;
-	border				: 2px solid inherit;
+.simplecollapsibleDesign > * > .clearfix {
+	background-color	: #B3B3B3;
+	border				: 1px solid #B3B3B3;
 	line-height			: 0;
 	height				: 0;
 	max-height			: 0;
@@ -258,27 +259,43 @@ data-bootstrapcomponents-tabpanel {
 	padding				: 10px 0 0 10px;
 }
 
-.customDivDesign.simple-collapsible, .customDivDesign.collapsible-container
+.simplecollapsibleDesign > * > .clearfix::before {
+  background-color		  : #B3B3B3;
+  border                  : 1px solid #B3B3B3;
+}
+
+
+.simplecollapsibleDesign.simple-collapsible, .simplecollapsibleDesign.collapsible-container
 {
 	background-color	: #C0C0C0;
 	border				: 1px solid  #C0C0C0;
 }
 
-.customDivDesign.simple-collapsible::before, .customDivDesign.collapsible-container::before {
+.simplecollapsibleDesign.simple-collapsible::before, .simplecollapsibleDesign.collapsible-container::before {
   background-color		  : #C0C0C0;
   border                  : 1px solid #C0C0C0;
 }
 
-.customDivDesign.inline-group-left, .customDivDesign.inline-group-right {
+.inlinegroupDesign > .inline-group-left, .inlinegroupDesign > .inline-group-right {
 	width: 20%;
 }
 
-.customDivDesign.inline-group.clearfix {
-	background-color	: #D3D3D3;
-	border				: 1px solid #D3D3D3;
+.inlinegroupDesign.inline-group.clearfix {
+	background-color	: #B3B3B3;
+	border				: 1px solid #B3B3B3;
 }
 
-.customDivDesign.inline-group.clearfix::before {
-	background-color	: #D3D3D3;
-	border				: 1px solid #D3D3D3;
+.inlinegroupDesign.inline-group.clearfix::before {
+	background-color	: #B3B3B3;
+	border				: 1px solid #B3B3B3;
+}
+
+.customDivDesignOdd, .customDivDesignOdd::before {
+	background-color	: #C0C0C0;
+	border				: 1px solid  #C0C0C0;
+}
+
+.customDivDesignEven, .customDivDesignEven::before{
+	background-color	: #A8A8A8;
+	border				: 1px solid #A8A8A8;
 }

@@ -10,7 +10,7 @@
     ],
     "categoryName": "Flex CSS",
     "topContainer": true,
-    "designStyleClass" : "customDivDesign",
+    "designStyleClass" : "flexDesign",
 	"model": {
 		"class" :{ "type" :"styleclass", "tags": { "scope" :"design" }},
 		"data-shrink" : {"type" :"string", "tags": { "scope" :"design" }, "values": ["0","1","2","3","4","5"], "default": "0"},

@@ -9,7 +9,7 @@
     ],
     "categoryName": "Flex CSS",
     "topContainer": true,
-    "designStyleClass" : "customDivDesign",
+    "designStyleClass" : "flexDesign",
 	"model": {
 		"class" :{ "type" :"styleclass", "tags": { "scope" :"design" }},
 		"data-direction" : {"type" :"string", "tags": { "scope" :"design" }, "values": ["row","column"], "default": "row"},

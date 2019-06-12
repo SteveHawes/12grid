@@ -6,7 +6,7 @@
     "definition": "centercontainer/centercontainer.json",
     "categoryName" : "Templates",
 	"contains": ["container"],
-	"designStyleClass" : "customDivDesign",
+	"designStyleClass" : "centercontainerDesign",
     "topContainer": true,
     "model": {
 		"class" :{ "type" :"styleclass", "tags": { "scope" :"design" }}

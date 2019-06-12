@@ -9,7 +9,7 @@
         "column",
         "flexitem"
     ],
-    "designStyleClass" : "customDivDesign",
+    "designStyleClass" : "inlinegroupDesign",
     "categoryName": "Templates",
     "topContainer": true,
      "model": {
