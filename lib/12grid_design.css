@@ -21,7 +21,7 @@
 .rowDesign {
  	background-color	: #D3D3D3;
 	border				: 2px solid inherit;
-    margin				: 25px !important;
+    margin				: 30px 10px !important;
 	min-height			: 40px;
     padding				: 10px;
 }
@@ -35,8 +35,8 @@
 .rowDesign.container-fluid {
 	background-color		: #A9A9A9;
 	border					: 2px solid inherit;
-	height					: calc(100% - 50px);
-	width					: calc(100% - 50px);
+	height					: calc(100% - 60px);
+	width					: calc(100% - 20px);
 	margin					: 0px;
 }
 
@@ -44,48 +44,48 @@
 .columnDesign {
 	background-color		: #F0F0F0;
 	border					: 2px solid inherit;
-	margin					: 30px 10px 10px 10px;
+	margin					: 30px 3px 3px 3px;
 	min-height				: 40px;
-	min-width				: 100px;
+	min-width				: 75px;
     padding					: 10px;
 }
 
 /*hardcode column widths for now*/
 .columnDesign.col-md-12 {
-	 width: calc(100% - 20px);
+	 width: calc(100% - 6px);
 }
 .columnDesign.col-md-11 {
-	 width: calc(100% * 11 / 12 - 20px);
+	 width: calc(100% * 11 / 12 - 6px);
 }
 .columnDesign.col-md-10 {
-	 width: calc(100% * 10 / 12 - 20px);
+	 width: calc(100% * 10 / 12 - 6px);
 }
 .columnDesign.col-md-9 {
-	 width: calc(100% * 9 / 12 - 20px);
+	 width: calc(100% * 9 / 12 - 6px);
 }
 .columnDesign.col-md-8 {
-	 width: calc(100% * 8 / 12 - 20px);
+	 width: calc(100% * 8 / 12 - 6px);
 }
 .columnDesign.col-md-7 {
-	 width: calc(100% * 7 / 12 - 20px);
+	 width: calc(100% * 7 / 12 - 6px);
 }
 .columnDesign.col-md-6 {
-	 width: calc(50% - 20px);
+	 width: calc(50% - 6px);
 }
 .columnDesign.col-md-5 {
-	 width: calc(100% * 5 / 12 - 20px);
+	 width: calc(100% * 5 / 12 - 6px);
 }
 .columnDesign.col-md-4 {
-	 width: calc(100% * 4 / 12 - 20px);
+	 width: calc(100% * 4 / 12 - 6px);
 }
 .columnDesign.col-md-3 {
-	 width: calc(25% - 20px);
+	 width: calc(25% - 6px);
 }
 .columnDesign.col-md-2{
-	 width: calc(100% * 2 / 12 - 20px);
+	 width: calc(100% * 2 / 12 - 6px);
 }
 .columnDesign.col-md-1 {
-	 width: calc(100% * 1 / 12 - 20px);
+	 width: calc(100% * 1 / 12 - 6px);
 }
 
 .customDivDesign::before, .rowDesign::before, .columnDesign::before, .customDivDesignOdd::before, .customDivDesignEven::before, .centercontainerDesign::before, .flexDesign::before, .inlinegroupDesign::before, .simplecollapsibleDesign::before {
