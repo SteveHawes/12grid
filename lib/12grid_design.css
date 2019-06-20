@@ -2,6 +2,10 @@
 	min-height: 20px;
 }
 
+div [class*="col-"]:not(.columnDesign){
+	min-height: 20px;
+}
+
 .form_reference {
 	min-height: 20px;
 }
@@ -40,7 +44,6 @@
 	margin					: 0px;
 }
 
-/*first level children divs are columns*/
 .columnDesign {
 	background-color		: #F0F0F0;
 	border					: 2px solid inherit;
