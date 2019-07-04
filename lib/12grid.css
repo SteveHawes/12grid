@@ -206,7 +206,7 @@
 }
 
 /* Flex Justify Items */
-.flex[data-justify-content="content-center"] {
+.flex[data-justify-content="center"] {
 	justify-content: center;
 }
 
