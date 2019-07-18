@@ -163,6 +163,7 @@ data-bootstrapcomponents-tabpanel {
 */
 .flexlayout > .flex-content {
 	min-height: 20px;
+	overflow: visible;
 }
 
 .svy-form .flexlayout {
