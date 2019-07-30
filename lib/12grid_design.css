@@ -17,9 +17,9 @@ div [class*="col-"]:not(.columnDesign){
 .customDivDesign, .customDivDesignOdd, .customDivDesignEven, .centercontainerDesign, .flexDesign, .inlinegroupDesign, .simplecollapsibleDesign {
 	background-color	: #E8E8E8;
 	border				: 2px solid inherit;
-	margin				: 25px;
+	margin				: 25px !important;
 	min-height			: 40px;
-	padding				: 10px;
+	padding				: 10px !important;
 }
 
 .rowDesign {
@@ -27,7 +27,7 @@ div [class*="col-"]:not(.columnDesign){
 	border				: 2px solid inherit;
     margin				: 30px 10px !important;
 	min-height			: 40px;
-    padding				: 10px;
+    padding				: 10px !important;
 }
 
 .container-fluid {
@@ -47,10 +47,10 @@ div [class*="col-"]:not(.columnDesign){
 .columnDesign {
 	background-color		: #F0F0F0;
 	border					: 2px solid inherit;
-	margin					: 30px 3px 3px 3px;
+	margin					: 30px 3px 3px 3px !important;
 	min-height				: 40px;
 	min-width				: 75px;
-    padding					: 10px;
+    padding					: 10px !important;
 }
 
 /*hardcode column widths for now*/
