@@ -6,6 +6,11 @@ div [class*="col-"]:not(.columnDesign){
 	min-height: 20px;
 }
 
+div [data-maincontainer="true"] {
+	width: 100%;
+	height: 100%
+}
+
 .form_reference {
 	min-height: 20px;
 }
