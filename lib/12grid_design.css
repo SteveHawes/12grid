@@ -44,9 +44,7 @@ div [data-maincontainer="true"] {
 .rowDesign.container-fluid {
 	background-color		: #A9A9A9;
 	border					: 2px solid inherit;
-	height					: calc(100% - 60px);
 	width					: calc(100% - 20px);
-	margin					: 0px;
 }
 
 .columnDesign {
