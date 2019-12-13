@@ -57,6 +57,7 @@ div [data-maincontainer="true"] {
 	min-width				: 75px;
     padding					: 10px !important;
     display					: inline-block;
+    vertical-align			: top;
 }
 
 /*hardcode column widths for now*/
