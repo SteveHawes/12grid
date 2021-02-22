@@ -12,11 +12,11 @@
 }  
 @media (min-width: 992px){
 	.collapsible-container {
-	 display: block;!important;
+	 display: block !important;
 	 visibility:visible;
-	 height: auto!important;
+	 height: auto !important;
 	 padding-bottom: 0;
-	 overflow: visible!important;
+	 overflow: visible !important;
 	}
 }
 
