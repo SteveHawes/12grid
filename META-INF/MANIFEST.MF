@@ -4,7 +4,7 @@ CSS-ClientLibs: 12grid/lib/12grid.css
 Responsive-Layout: True
 Bundle-SymbolicName: 12grid
 Bundle-Name: Bootstrap 12-Grid
-Bundle-Version: 1.4.1
+Bundle-Version: 1.4.2
 CSS-DesignLibs: 12grid/lib/12grid_design.css
 Created-By: 1.7.0_05-b06 (Oracle Corporation)
 Package-Type: Web-Layout
