@@ -8,8 +8,12 @@ export class CollapseDirective implements AfterViewInit {
     }
     ngAfterViewInit(): void {
         const element = this.elemRef.nativeElement as HTMLDivElement;
-        const toggle = element.querySelector('.simple-collapsible-toggle');
-        const content = element.querySelector('.simple-collapsible-content');
+        let toggle = element.querySelector('.simple-collapsible-toggle');
+        if (!toggle)
+            toggle = element.querySelector('.collapsible-toggle');
+        let content = element.querySelector('.simple-collapsible-content');
+        if (!content) 
+            content = element.querySelector('.collapsible-container');
         this.renderer.listen(toggle, 'click', () => {
             if (this.showing) {
                 this.height = content.clientHeight;

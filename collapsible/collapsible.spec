@@ -7,5 +7,7 @@
 	"designStyleClass" : "rowDesign",
 	"categoryName":"Templates",
 	"contains": ["12grid.div"],
-	"topContainer": true
+	"topContainer": true,
+	"directives": ["gridCollapse"],
+    "tagType":"div"
 }

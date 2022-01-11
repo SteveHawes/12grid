@@ -10,7 +10,7 @@
 			"children": [{
 				"layoutName": "div",
 				"model": {
-					"class": "fa fa-reorder"
+					"class": "fa fa-reorder fa-bars"
 				}
 			}]
 		}
