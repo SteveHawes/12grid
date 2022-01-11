@@ -1,0 +1,17 @@
+{
+  "name": "@servoy/12grid",
+  "version": "1.5.2",
+  "peerDependencies": {
+    "@angular/common": "^13",
+    "@angular/core": "^13",
+    "@angular/forms": "^13"
+  },
+  "dependencies": {
+    "tslib": "*"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Servoy/bootstrapcomponents"
+  }
+}

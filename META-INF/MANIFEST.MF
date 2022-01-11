@@ -1,8 +1,11 @@
 Manifest-Version: 1.0
 Ant-Version: Apache Ant 1.8.4
-NG2-CSS-ClientLibs: 12grid/lib/12grid.css
+NG2-CSS-ClientLibs: ~@servoy/12grid/12grid.css
 CSS-ClientLibs: 12grid/lib/12grid.css
 Responsive-Layout: True
+NPM-PackageName: @servoy/12grid
+NG2-Module: GridModule
+Entry-Point: dist/12grid
 Bundle-SymbolicName: 12grid
 Bundle-Name: Bootstrap 12-Grid
 Bundle-Version: 1.5.2
@@ -12,41 +15,41 @@ Created-By: 1.7.0_05-b06 (Oracle Corporation)
 Package-Type: Web-Layout
 JS-ClientLibs: 12grid/lib/2screens.js
 
-Name: labelfield.spec
-Web-Composite: True
-
-Name: 2columns.spec
+Name: labelfield/labelfield.spec
 Web-Layout: True
 
-Name: collapsible.spec
-Web-Composite: True
-
-Name: container.spec
+Name: 2columns/2columns.spec
 Web-Layout: True
 
-Name: csspositioncontainer.spec
+Name: collapsible/collapsible.spec
 Web-Layout: True
 
-Name: div.spec
+Name: container/container.spec
 Web-Layout: True
 
-Name: row.spec
+Name: csspositioncontainer/csspositioncontainer.spec
 Web-Layout: True
 
-Name: responsivetable.spec
-Web-Composite: True
+Name: div/div.spec
+Web-Layout: True
 
-Name: responsive_form.spec
-Web-Composite: True
+Name: row/row.spec
+Web-Layout: True
+
+Name: responsivetable/responsivetable.spec
+Web-Layout: True
+
+Name: responsive_form/responsive_form.spec
+Web-Layout: True
 
 Name: simplecollapsible/simplecollapsible.spec
 Web-Layout: True
 
-Name: 1column.spec
+Name: 1column/1column.spec
 Web-Layout: True
 
-Name: clearfix.spec
-Web-Composite: True
+Name: clearfix/clearfix.spec
+Web-Layout: True
 
 Name: inlinegroup/inlinegroup.spec
 Web-Layout: True
@@ -60,16 +63,15 @@ Web-Layout: True
 Name: flexitem/flexitem.spec
 Web-Layout: True
 
-Name: 3columns.spec
+Name: 3columns/3columns.spec
 Web-Layout: True
-Web-Composite: True
 
-Name: 2screens.spec
-Web-Composite: True
+Name: 2screens/2screens.spec
+Web-Layout: True
 
 Name: flexcontainer/flexcontainer.spec
 Web-Layout: True
 
-Name: column.spec
+Name: column/column.spec
 Web-Layout: True
 

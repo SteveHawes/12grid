@@ -2,8 +2,8 @@
 	"name": "csspositioncontainer",
 	"displayName": "CSS Position Container",
 	"version": 1,
-	"definition": "csspositioncontainer.json",
-	"icon": "12grid/csspositioncontainer.png",
+	"definition": "csspositioncontainer/csspositioncontainer.json",
+	"icon": "12grid/csspositioncontainer/csspositioncontainer.png",
 	"categoryName":"Templates",
 	"layout": "css",
 	"model": {

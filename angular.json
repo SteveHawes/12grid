@@ -1,0 +1,31 @@
+{
+    "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+    "cli": {
+      "analytics": "c73821cc-c3cd-481c-a275-0657b4a6c943"
+    },
+    "version": 1,
+    "newProjectRoot": "projects",
+    "projects": {
+      "@servoy/12grid": {
+        "projectType": "library",
+        "root": "project",
+        "sourceRoot": "project/src",
+        "prefix": "lib",
+        "architect": {
+          "build": {
+            "builder": "@angular-devkit/build-angular:ng-packagr",
+            "options": {
+              "tsConfig": "project/tsconfig.lib.json",
+              "project": "project/ng-package.json"
+            },
+            "configurations": {
+              "production": {
+                "tsConfig": "project/tsconfig.lib.prod.json"
+              }
+            }
+          }
+        }
+      }
+    },
+    "defaultProject": "@servoy/12grid"
+  }

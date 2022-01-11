@@ -3,7 +3,7 @@
 	"displayName": "Flex Item",
 	"version": 1,
 	"definition": "flexitem/flexitem.json",
-	"icon": "12grid/customdiv.png",
+	"icon": "12grid/flexitem/flexitem.png",
 	"excludes": [
         "container",
         "column"

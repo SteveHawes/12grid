@@ -8,6 +8,8 @@
 	"excludes": ["container","column","flexitem"],
 	"designStyleClass" : "simplecollapsibleDesign",
     "topContainer": true,
+    "directives": ["gridCollapse"],
+    "tagType":"div",
     "model": {
 		"class" :{ "type" :"styleclass", "tags": { "scope" :"design" }}
 	}

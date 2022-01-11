@@ -2,11 +2,11 @@
 	"name": "div",
 	"displayName": "Custom Div",
 	"version": 1,
-	"definition": "div.json",
+	"definition": "div/div.json",
 	"excludes": ["container", "column","flexitem"],
 	"topContainer": true,
 	"categoryName":"Templates",
-	"icon": "12grid/customdiv.png",
+	"icon": "12grid/div/div.png",
 	"designStyleClass" : "customDivDesign",
 	"tagType":"div",
 	"model": {
