@@ -6,6 +6,8 @@ var zip = new AdmZip();
 zip.addLocalFolder("./META-INF/", "/META-INF/");
 zip.addLocalFolder("./dist/12grid/", "/dist/12grid/");
 
+zip.addLocalFolder("./lib/", "/lib/");
+
 zip.addLocalFolder("./labelfield/", "/labelfield/");
 zip.addLocalFolder("./2columns/", "/2columns/");
 zip.addLocalFolder("./collapsible/", "/collapsible/");
