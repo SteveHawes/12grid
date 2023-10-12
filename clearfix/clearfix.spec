@@ -1,4 +1,5 @@
 {
+	"deprecated": "true",
 	"name": "clearfix",
 	"displayName": "ClearFix",
 	"version": 1,

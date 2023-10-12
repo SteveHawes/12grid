@@ -1,4 +1,5 @@
 {
+	"deprecated": "true",
 	"name": "2screens",
 	"displayName":"2 Responsive Screens",
 	"version": 1,
