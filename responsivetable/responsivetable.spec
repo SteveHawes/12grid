@@ -1,4 +1,5 @@
 {
+	"deprecated": "true",
 	"name": "responsivetable",
 	"displayName": "Responsive Grid Container",
 	"version": 1,
