@@ -8,7 +8,7 @@ NG2-Module: GridModule
 Entry-Point: dist/12grid
 Bundle-SymbolicName: 12grid
 Bundle-Name: Bootstrap 12-Grid
-Bundle-Version: 2022.9.0
+Bundle-Version: 2023.3.0
 CSS-DesignLibs: 12grid/lib/12grid_design.css
 NG2-CSS-DesignLibs: 12grid/lib/12grid_design_ng2.css
 Created-By: 1.7.0_05-b06 (Oracle Corporation)
